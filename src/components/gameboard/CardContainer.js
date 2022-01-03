@@ -7,17 +7,17 @@ function CardContainer(props) {
     const handleClick = (id) => handleCardClick(id);
 
     const cardList = cards.map(card => {
-        const start = card.default.lastIndexOf('/') + 1;
-        const end = card.default.indexOf('.');
-        const characterName = card.default.substring(start, end);
+        const start = card.lastIndexOf('/') + 1;
+        const end = card.indexOf('.');
+        const characterName = card.substring(start, end);
 
-        return (<GameCard src={card.default} alt={characterName} key={characterName} id={characterName} handleClick={handleClick} />);
+        return (<GameCard src={card} alt={characterName} key={characterName} id={characterName} handleClick={handleClick} />);
     });
 
     return (
-        <div className='card-container'>
+        <main className='card-container'>
             {cardList}
-        </div>
+        </main>
     );
 };
 
