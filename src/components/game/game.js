@@ -18,10 +18,9 @@ function Game(props) {
     };
 
     useEffect(() => {
-        const importAllCards = r => r.keys().map(r);
+        const importAllCards = card => card.keys().map(card);
         const importedCards = importAllCards(require.context('../images', false, /\.(png|jpe?g|svg)/));
         setCards(importedCards);
-        console.log(importedCards);
         return importedCards;
     }, []);
 

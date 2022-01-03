@@ -8,8 +8,6 @@ function GameCard(props) {
     return (
         <div className='game-card'>
             <img src={src} alt={alt} id={id} onClick={handleCardClick} />
-            <br />
-            <span>{alt}</span>
         </div>
     )
 };
