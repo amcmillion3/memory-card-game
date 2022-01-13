@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CardContainer from '../cardcontainer';
-import Header from '../header/header';
+import Header from '../header';
 
 function Game(props) {
     const [cards, setCards] = useState([]);

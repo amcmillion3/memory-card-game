@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

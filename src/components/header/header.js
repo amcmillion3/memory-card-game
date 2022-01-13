@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import "./header.css"
 
 function Header(props) {
     const { clickedCards } = props;
