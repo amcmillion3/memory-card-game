@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import CardContainer from '../gameboard/CardContainer';
+import CardContainer from '../cardcontainer';
 import Header from '../header/header';
 
 function Game(props) {

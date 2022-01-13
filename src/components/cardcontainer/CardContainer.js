@@ -1,5 +1,5 @@
 import React from 'react';
-import GameCard from './GameCard';
+import GameCard from '../gamecard';
 
 function CardContainer(props) {
     const { cards, handleCardClick } = props;
