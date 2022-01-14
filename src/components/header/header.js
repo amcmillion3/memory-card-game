@@ -21,8 +21,8 @@ function Header(props) {
                 <h1>Naruto Memory Game</h1>
             </div>
             <div className='score'>
-                <span>Score: {score}</span>
-                <span>High Score: {highScore}</span>
+                <span>Score: {score}/24</span>
+                <span>High Score: {highScore}/24</span>
             </div>
         </header>
     );

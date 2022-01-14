@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CardContainer from '../cardcontainer';
 import Header from '../header';
+import "./game.css";
 
 function Game(props) {
     const [cards, setCards] = useState([]);
@@ -36,7 +37,7 @@ function Game(props) {
     };
 
     return (
-        <div>
+        <div className='game-container'>
             <Header clickedCards={clickedCards} />
             <CardContainer cards={cards} handleCardClick={handleCardClick} />
         </div>
