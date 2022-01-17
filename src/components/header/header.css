@@ -2,7 +2,7 @@ header {
     display: flex;
     justify-content: space-around;
     border-bottom: 3px solid black;
-    font-size: 2rem;
+    font-size: 1.3rem;
 }
 
 .score {
