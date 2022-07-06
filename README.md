@@ -7,7 +7,7 @@ This project is part of the [The Odin Project](https://www.theodinproject.com/le
 A fun memory card game in which the objective is to try to continuously select a unique card as many times in a row as possible.
 
 ### Why did I build this project?
-An memory card game is the project in the React section of The Odin Project's Javascript Course focused on developing skills involving functional components and hooks. I thought it would be fun to make something using high quality cards so I chose the Naruto Trading Card Game as it provided high quality card images and I really like Naruto.
+An memory card game is the project in the React section of The Odin Project's Javascript Course focused on developing skills involving functional components and hooks. I thought it would be fun to make something using high quality cards so I chose the Naruto Trading Card Game as it provided detailed card images and I really like Naruto.
 
 ### My Learning Experience
 This was a project I built with React to become comfortable with Functional Components and Hooks. How state functions and how data is shared in a React app was confusing at first but once I read through the official docs and played with the sample code in the React docs I figured it out and made it work.
